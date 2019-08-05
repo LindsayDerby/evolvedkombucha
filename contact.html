@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Evolved Kombucha - Contact</title>
+
+    <meta charset="utf-8" />
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500|Lato&display=swap" rel="stylesheet">
+
+  </head>
+
+  <body>
+    <header>
+      <img src="images/logo-horizontal.png" class="logo" alt="Evolved Kombucha Logo" title="logo"/>
+        <nav>
+          <ul class="top-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+    </header>
+
+ <main>
+   <div class="container">
+     <section class="contact-form" id="contact-form">
+       <h1>WE'D LOVE TO HEAR FROM YOU</h1>
+       <p>Do you have an idea for a new flavor? Want to know where you can get a bottle? Or do you just want to say hi and grab a drink? Either way, fill out the form below. We'll get back to you soon! </p>
+
+       <form class="contact-form" id="test_form" name="test_form" method="POST" action="form.php" onsubmit="return validateForm(this)">
+         <div class="name input-section" >
+           <input type="text" name="req_name" id="name" placeholder="Name" />
+         </div>
+
+         <div class="email input-section">
+           <input type="email" name="req_email" id="email" placeholder="Email Address" />
+         </div>
+
+         <div class="message input-section">
+           <label for="message" class="label_input_wrap">What's on your mind?</label>
+           <textarea name="message" id="message">
+           </textarea>
+         </div>
+
+         <div class="submit">
+           <input type="submit" value="Submit Form" class="button"/>
+         </div>
+
+       </form>
+     </section>
+
+     <section class="calendar" id="calendar">
+
+       <div class="calendar-item">
+         <h1>COME SEE US</h1>
+         <h2>East Beach Farmer's Market <a href="#" class="calendar-button">Details</a></h2>
+         <p>Saturday, August 3rd, 2019, 11 - 1 </p>
+       </div>
+
+       <div class="calendar-item">
+         <h2>East Beach Farmer's Market <a href="#" class="calendar-button">Details</a></h2>
+         <p>Saturday, August 3rd, 2019, 11 - 1 </p>
+       </div>
+
+       <div class="calendar-item">
+         <h2>East Beach Farmer's Market <a href="#" class="calendar-button">Details</a></h2>
+         <p>Saturday, August 3rd, 2019, 11 - 1 </p>
+       </div>
+
+       <div class="calendar-item">
+         <h2>East Beach Farmer's Market <a href="#" class="calendar-button">Details</a></h2>
+         <p>Saturday, August 3rd, 2019, 11 - 1 </p>
+       </div>
+
+     </section>
+   </div>
+</main>
+
+<footer>
+<p id="footer-text">Evolved Kombucha</p>
+<div class="social-icons">
+ <a href="#"></a>
+ <a href="#"></a>
+ <a href="#"></a>
+ <a href="#"></a>
+</div>
+</footer>
+
+</body>
+</html>

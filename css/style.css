@@ -1,0 +1,470 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+
+body{
+  background: #f7f7f7;
+}
+
+#home {
+  background-image: url("http://evolvedkombucha.com/images/homepage-hero.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center top;
+  background-size: cover;
+}
+
+.container {
+  max-width: 100%;
+  background: #f7f7f7;
+
+}
+
+section {
+  margin-bottom: 40px;
+  background: #f7f7f7;
+
+}
+
+main {
+  padding-top: 102px;
+  background: #f7f7f7;
+  padding-bottom: 40px;
+}
+
+main .container {
+  background-color: white;
+  padding: 20px;
+  background: #f7f7f7;
+
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+h1 {
+  font-family: 'Barlow Condensed', sans-serif;
+  color: black;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-family: 'Barlow Condensed', sans-serif;
+  color: black;
+  font-size: 20px;
+  margin-bottom: 0px;
+	font-weight: 500;
+}
+
+
+p {
+  font-family: 'Lato', sans-serif;
+  color: black;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+
+/*===================
+*
+* Footer
+*
+=====================*/
+#footer {
+ position: absolute;
+ bottom: 0;
+ width: 100%;
+ height: 30px;
+ background-color: #000;
+ color: white;
+ padding: 20px;
+ display: block;
+}
+
+footer {
+ position: absolute;
+ bottom: 0;
+ width: 100%;
+ height: 30px;
+ background-color: #000;
+ color: white;
+ padding: 20px;
+ display: block;
+}
+
+#footer-text {
+  color: white;
+}
+
+/*===================
+*
+* Header
+*
+=====================*/
+
+header {
+  background: #F7F7F7;
+  padding: 20px 0px;
+  position: fixed;
+  width: 100%;
+  padding: 40px 0;
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
+
+.logo {
+  float: left;
+  width: 200px;
+  display: inline;
+  padding-left: 30px;
+}
+
+nav {
+    float: right;
+    padding-right: 30px;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Barlow Condensed', sans-serif;
+  text-transform: uppercase;
+  padding: 0px 20px;
+}
+
+nav a:active {
+  text-decoration: none;
+  color: black;
+  padding: 0px 20px;
+  font-family: 'Barlow Condensed', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: none;
+  background-color: #b5dcd9;
+  padding: 10px 20px;
+  border-radius: 2px;
+  color: black;
+  font-family: 'Barlow Condensed', sans-serif;
+  text-transform: uppercase;
+}
+/*===================
+*
+* Home Page
+*
+=====================*/
+.home-logo {
+  width: 300px;
+  padding-bottom: 30px;
+  position: relative;
+  left: 60px;
+  top: 0px;
+}
+
+
+.intro p {
+   padding-left: 80px;
+   width: 500px;
+}
+
+.favorites {
+  max-width: 100%;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.favorite-brew-content {
+  text-align: center;
+  width: 300px;
+}
+
+.favorite-brew {
+  max-width: 300px;
+  display: inline-block;
+  position: relative;
+  vertical-align: text-top;
+  padding: 10px;
+}
+
+.favorite-brew img {
+  max-width: 300px;
+  padding: 10px;
+}
+/*===================
+*
+* Product Page
+*
+=====================*/
+
+
+.products {
+  max-width: 100%;
+  text-align: center;
+}
+
+.product-card {
+  max-width: 300px;
+  display: inline-block;
+  position: relative;
+  vertical-align: text-top;
+  padding: 10px;
+}
+
+.product-card img {
+  max-width: 300px;
+}
+
+.product-card a {
+  color: white;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background: url("http://evolvedkombucha.com/images/hover-apples.jpg");
+}
+
+.product-card:hover .overlay-text {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  background-color: 0 0 0 .8;
+  position: absolute;
+  top: 50%;
+  left: 37%;
+  transform: translate(-30%,-50%);
+  padding: 20px;
+}
+
+/*===================
+*
+* About Page
+*
+=====================*/
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.flex-container .box {
+  width: 50%;
+  height: 450px;
+  overflow: auto;
+}
+
+.about-content h1 {
+margin-left: 50px;
+margin-top: 70px;
+margin-right: 50px;
+}
+
+.about-content p {
+margin-left: 50px;
+margin-right: 50px;
+}
+
+#blue {
+  background-color: #B5DCD9;
+}
+
+#green {
+  background-color: #D0DDA4;
+}
+
+#yellow {
+  background-color: #FBF4BD;
+}
+
+.meet-team {
+  max-width: 100%;
+  text-align: center;
+  padding-top: 20px;
+}
+
+
+.column {
+  float: left;
+  width: 20%;
+  padding: 5px 0px 5px 50px;
+  text-align: center;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.brewers {
+  width: 180px;
+}
+
+.brewers:hover {
+  opacity: .7;
+}
+
+
+/*===================
+*
+* Contact Page
+*
+=====================*/
+
+.contact-form {
+  width: 40%;
+  float: left;
+  padding: 0px 10px 0px 0px;
+  margin-left: 20px;
+}
+
+.calendar {
+  width: 40%;
+  min-width: 400px;
+  padding: 50px;
+  background: #D0DDA4;
+  float: right;
+  margin-right: 0px;
+}
+
+.contact-form p, h1 {
+  max-width: 400px;
+  margin-left: 20px;
+}
+
+.calendar-item h1 {
+  margin-left: 0px;
+}
+.input-section {
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 10px 15px;
+  border-radius: 2px;
+  border: solid .5px #9d9d9d;
+  width: 350px;
+  margin-bottom: 5px;
+
+}
+
+.label_input_wrap {
+  display: block;
+}
+
+label {
+  font-family: 'Lato', sans-serif;
+  color: #9d9d9d;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+placeholder {
+  color: #9D9D9D;
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+}
+
+textarea {
+  font-family: 'Lato', sans-serif;
+  color: #9d9d9d;
+  padding: 10px 15px;
+  border: solid .5px #9d9d9d;
+  border-radius: 2px;
+  width: 350px;
+  height: 100px;
+}
+
+.button, .button-home {
+  font-family: 'Barlow Condensed', sans-serif;
+  color: white;
+  background-color: black;
+  font-size: 18px;
+  border-radius: 2px;
+  width: 130px;
+  text-align: center;
+  border: none;
+  text-decoration: none;
+  padding: 8px 15px;
+}
+
+.button:hover {
+  font-family: 'Barlow Condensed', sans-serif;
+  color: black;
+  background-color: #b5dcd9;
+  font-size: 18px;
+  border-radius: 2px;
+  width: 130px;
+  text-align: center;
+  border: none;
+  text-decoration: none;
+  padding: 8px 15px;
+}
+
+.button-home:hover {
+  font-family: 'Barlow Condensed', sans-serif;
+  color: black;
+  background-color: #FBF4BD;
+  font-size: 18px;
+  border-radius: 2px;
+  width: 130px;
+  text-align: center;
+  border: none;
+  text-decoration: none;
+  padding: 8px 15px;
+}
+
+
+.calendar-button {
+  font-family: 'Barlow Condensed', sans-serif;
+  color: black;
+  background-color: #B5DCD9;
+  font-size: 18px;
+  border-radius: 2px;
+  width: 130px;
+  text-align: center;
+  border: none;
+  text-decoration: none;
+  padding: 8px 15px;
+  float: right;
+  max-width: 60px;
+}
+
+.calendar-button:hover {
+  font-family: 'Barlow Condensed', sans-serif;
+  color: white;
+  background-color: black;
+  font-size: 18px;
+  border-radius: 2px;
+  width: 130px;
+  text-align: center;
+  border: none;
+  text-decoration: none;
+  padding: 8px 15px;
+  float: right;
+  max-width: 60px;
+}
