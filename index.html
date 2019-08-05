@@ -4,6 +4,9 @@
     <title>Evolved Kombucha</title>
 
     <meta charset="utf-8" />
+	  
+ 	<!--Favicon-->
+    <link rel="icon" href="favicon.png" type="image/x-icon" />
 
     <!-- Stylesheet -->
     <link rel="stylesheet" type="text/css" href="css/style.css" />
@@ -13,53 +16,53 @@
 
   </head>
 
-  <body id="home">
-    <header>
-        <nav>
+  <body>
+    <header class="alt-header">
+      <a href="index.html"><img src="images/logo-stacked.png" class="alt-logo" alt="Evolved Kombucha Logo" title="logo"/></a>
+        <nav class="alt-menu">
           <ul class="top-menu">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="products.html">Products</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="index.html" class="alt-menu">Home</a></li>
+            <li><a href="about.html" class="alt-menu">About</a></li>
+            <li><a href="products.html" class="alt-menu">Products</a></li>
+            <li><a href="contact.html" class="alt-menu">Contact</a></li>
           </ul>
         </nav>
+
     </header>
 
     <main>
       <div class="container">
-        <section class="intro" id="intro">
-          <img class="home-logo" src="images/logo-stacked.png" alt="Evolved Kombucha Logo" />
-
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vehicula dictum nibh id fermentum. Proin venenatis at massa sed volutpat. Integer ut mattis velit.</p>
-        </section>
-
+		<section class="intro">
+			<div class="intro" id="intro">
+			  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vehicula dictum nibh id fermentum. Proin venenatis at massa sed volutpat. Integer ut mattis velit.</p><br />
+				<h1>OUR FAVORITE BREWS</h1>
+			</div>
+		 </section>
+		  
+	
+		         
         <section class="favorites" id="favorites">
-          <h1 class="favorites">OUR FAVORITE BREWS</h1>
 
           <div class="favorite-brew">
-            <img class="featured-brew" src="images/homepage-apple.jpg" alt="Appley Ever After" />
-            <div class="favorite-brew-content">
-              <h2>APPLEY EVER AFTER</h2>
-              <p>The perfect balance of sweet and tart with fresh apples paired with hits of lime, mint, and ginger.</p>
-            </div>
+			  <img src="images/homepage-apple.jpg" alt="Appley Ever After" />
+			  <h2>APPLEY EVER AFTER</h2>
+              <p>The perfect balance of sweet and tart with fresh apples paired with hits of lime, mint, and ginger.</p >
           </div>
 
           <div class="favorite-brew">
-            <img class="featured-brew" src="images/homepage-blueberry.jpg" alt="Hey Boo BooBerry" />
-             <div class="favorite-brew-content">
+			  <img src="images/homepage-blueberry.jpg" alt="Hey Boo BooBerry" />
               <h2>HEY BOO BOOBERRY</h2>
               <p>Full of antioxidants and flavor, each bottle is loaded with blueberries, lemon, and a touch of mint.</p>
-             </div>
-        </div>
+          </div>
+
 
           <div class="favorite-brew">
-            <img class="featured-brew" src="images/homepage-citrus.jpg" alt="Citrus Got Real" />
-             <div class="favorite-brew-content">
+			  <img src="images/homepage-citrus.jpg" alt="Citrus Got Real" />
                <h2>CITRUS GOT REAL</h2>
                <p>Enjoy the fresh the flavors of summer with orange, lemon, star fruit, and pineapple.</p>
-          </div>
-        </div>
+       	   </div>
         </section>
+		  
 
         <div class="flex-container" id="blue">
           <div class="box" id="blue">
@@ -78,15 +81,19 @@
       </div>
     </main>
 
-    <footer>
+     <footer>
     <div id="footer">
-      <p id="footer-text">Evolved Kombucha</p>
-      <div class="social-icons">
-      <a href="#"></a>
-      <a href="#"></a>
-      <a href="#"></a>
-      <a href="#"></a>
-      </div>
+      	<div class="footer-text">
+		<p id="footer-text">Evolved Kombucha</p>
+		</div>
+		
+		<div class="footer-icons">
+		<a href="#"><img src="images/facebook.png"  alt="Facebook" style="height: 15px; padding-left: 10px;"></a>
+		<a href="#"><img src="images/instagram.png"  alt="Instagram" style="height: 13px;  padding-left: 10px;"></a>
+		<a href="#"><img src="images/youtube.png"  alt ="Youtube" style="height: 13px;  padding-left: 10px;"></a>
+        <a href="contact.html"><img src="images/email.png" alt="Email" style="height: 12px;  padding-left: 10px;"></a>
+		</div>	
+		
     </div>
     </footer>
 

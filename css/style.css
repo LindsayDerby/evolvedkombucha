@@ -8,15 +8,10 @@
 
 body{
   background: #f7f7f7;
+	overflow-x: hidden;
 }
 
-#home {
-  background-image: url("http://evolvedkombucha.com/images/homepage-hero.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center top;
-  background-size: cover;
-}
+
 
 .container {
   max-width: 100%;
@@ -60,6 +55,7 @@ h2 {
   color: black;
   font-size: 20px;
   margin-bottom: 0px;
+	margin-top: 5px;
 	font-weight: 500;
 }
 
@@ -78,16 +74,7 @@ p {
 * Footer
 *
 =====================*/
-#footer {
- position: absolute;
- bottom: 0;
- width: 100%;
- height: 30px;
- background-color: #000;
- color: white;
- padding: 20px;
- display: block;
-}
+
 
 footer {
  position: absolute;
@@ -97,12 +84,29 @@ footer {
  background-color: #000;
  color: white;
  padding: 20px;
- display: block;
+ display: inline-block;
 }
 
 #footer-text {
   color: white;
+  text-align: left;
 }
+
+.footer-text, .footer-icons {
+	width: 40%;
+	display: inline-block;
+}
+
+.footer-icons {
+float: right;
+	text-align: right;
+	margin-right: 60px;
+}
+
+.footer-icons img:hover {
+	opacity: .5;
+}
+
 
 /*===================
 *
@@ -115,14 +119,41 @@ header {
   padding: 20px 0px;
   position: fixed;
   width: 100%;
-  padding: 40px 0;
   margin-right: 50px;
   margin-bottom: 50px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center top;
+  background-size: auto;
+	z-index: 9999;
+}
+
+.alt-header {
+background: #F7F7F7;
+  padding: 20px 0px;
+  position: absolute;
+  width: 100%;
+  top: 0;
+	height: 600px;
+  background-image: url("http://evolvedkombucha.com/images/homepage-hero.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center top;
+  background-size: contain;
+	z-index: 0;
+
 }
 
 .logo {
   float: left;
   width: 200px;
+  display: inline;
+  padding-left: 30px;
+}
+
+.alt-logo {
+  float: left;
+  width: 300px;
   display: inline;
   padding-left: 30px;
 }
@@ -150,7 +181,7 @@ nav a:active {
   padding: 0px 20px;
   font-family: 'Barlow Condensed', sans-serif;
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: 900;
 }
 
 nav a:hover {
@@ -162,48 +193,62 @@ nav a:hover {
   font-family: 'Barlow Condensed', sans-serif;
   text-transform: uppercase;
 }
+
+.alt-menu a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Barlow Condensed', sans-serif;
+  text-transform: uppercase;
+  background-color: black;
+  padding: 10px 20px;
+  border-radius: 2px;
+}
+
 /*===================
 *
 * Home Page
 *
 =====================*/
-.home-logo {
-  width: 300px;
-  padding-bottom: 30px;
-  position: relative;
-  left: 60px;
-  top: 0px;
+.intro {
+	width: 100%;
+	text-align: left;
+	max-width: 400px;
+	display: inline-block;
+	position: absolute;
+	top: 100px;
+	left: 50px;
+	vertical-align: text-top;
 }
 
-
-.intro p {
-   padding-left: 80px;
-   width: 500px;
+.intro h1 {
+	margin-left: 0px;
 }
 
 .favorites {
   max-width: 100%;
   text-align: center;
-  padding-top: 10px;
+  padding-top: 100px;
+	z-index: 9999;
+	margin-top: 30px;
 }
 
-.favorite-brew-content {
-  text-align: center;
-  width: 300px;
-}
 
 .favorite-brew {
   max-width: 300px;
   display: inline-block;
   position: relative;
   vertical-align: text-top;
-  padding: 10px;
+  padding: 110px 10px 0px 10px;
+text-align: center;
 }
 
 .favorite-brew img {
-  max-width: 300px;
-  padding: 10px;
+	max-width: 300px;
+	  display: inline-block;
+
 }
+
+
 /*===================
 *
 * Product Page
@@ -273,7 +318,7 @@ nav a:hover {
 .flex-container .box {
   width: 50%;
   height: 450px;
-  overflow: auto;
+  overflow: hidden;
 }
 
 .about-content h1 {
