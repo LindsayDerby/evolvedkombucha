@@ -258,7 +258,7 @@ text-align: center;
 =====================*/
 
 
-.products {
+.products, .products h1 {
   max-width: 100%;
   text-align: center;
 }
@@ -332,7 +332,7 @@ text-align: center;
 }
 
 #blueberry {
-  background: url("http://evolvedkombucha.com/images/hover-blueberry.jpg");  
+  background: url("http://evolvedkombucha.com/images/hover-blueberry.jpg");
 }
 .product-card:hover .overlay-text {
   opacity: 1;
