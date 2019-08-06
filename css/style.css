@@ -279,6 +279,7 @@ text-align: center;
   color: white;
 }
 
+
 .overlay-text {
   position: absolute;
   top: 0;
@@ -289,9 +290,50 @@ text-align: center;
   height: 100%;
   opacity: 0;
   transition: .5s ease;
-  background: url("http://evolvedkombucha.com/images/hover-apples.jpg");
+
 }
 
+/*===================
+*
+* Product Hovers
+*
+=====================*/
+
+#apple {
+    background: url("http://evolvedkombucha.com/images/hover-apples.jpg");
+}
+
+#beet {
+  background: url("http://evolvedkombucha.com/images/hover-beets.jpg");
+}
+
+#citrus {
+  background: url("http://evolvedkombucha.com/images/hover-citrus.jpg");
+}
+
+#pineapple {
+  background: url("http://evolvedkombucha.com/images/hover-pineapple.jpg");
+}
+
+#pear {
+  background: url("http://evolvedkombucha.com/images/hover-pears.jpg");
+}
+
+#orange {
+  background: url("http://evolvedkombucha.com/images/hover-oranges.jpg");
+}
+
+#strawberry {
+  background: url("http://evolvedkombucha.com/images/hover-strawberries.jpg");
+}
+
+#berry {
+  background: url("http://evolvedkombucha.com/images/hover-berry.jpg");
+}
+
+#blueberry {
+  background: url("http://evolvedkombucha.com/images/hover-blueberry.jpg");  
+}
 .product-card:hover .overlay-text {
   opacity: 1;
 }
