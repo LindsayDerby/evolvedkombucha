@@ -17,6 +17,9 @@
 
     <!--Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500|Lato&display=swap" rel="stylesheet">
+	  
+	<!-- LightBox -->
+    <link rel="stylesheet" type="text/css" href="lightbox/lightbox2-master/dist/css/lightbox.css" />
 
   </head>
 
@@ -38,7 +41,7 @@
       <div class="container">
 		<section class="intro">
 			<div class="intro" id="intro">
-			  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vehicula dictum nibh id fermentum. Proin venenatis at massa sed volutpat. Integer ut mattis velit.</p><br />
+			  <p>At Evolved Kombucha we believe in the art of constant change. Just like our artfully-crafted fermented drinks, we only get better with time. No two batches will ever be the same and we like it that way. If you are looking for one of a kind flavor packed with natural goodness, you have found it with Evolved. </p><br />
 			</div>
 		 </section>
 
@@ -48,22 +51,25 @@
           <h1 id="favorites-header">OUR FAVORITE BREWS</h1>
 
           <div class="favorite-brew">
-			  <img src="images/homepage-apple.jpg" alt="Appley Ever After" />
+			  <a href="images/homepage-apple.jpg" data-lightbox="highlight" data-title="Appley Every After boasts the perfect balance of sweet and tart with fresh apples paired with hits of lime, mint, and ginger.">
+			  <img src="images/homepage-apple.jpg" alt="Appley Ever After" /></a>
 			  <h2>APPLEY EVER AFTER</h2>
               <p>The perfect balance of sweet and tart with fresh apples paired with hits of lime, mint, and ginger.</p >
           </div>
 
           <div class="favorite-brew">
-			  <img src="images/homepage-blueberry.jpg" alt="Hey Boo BooBerry" />
+			  <a href="images/homepage-blueberry.jpg" data-lightbox="highlight" data-title="Hey Boo BooBerry is a seasonal favorite full of antioxidants and flavor, this brew is loaded with blueberries, lemon, and a hint of mint.">			  
+				  <img src="images/homepage-blueberry.jpg" alt="Hey Boo BooBerry Lemon" /></a>
               <h2>HEY BOO BOOBERRY</h2>
-              <p>Full of antioxidants and flavor, each bottle is loaded with blueberries, lemon, and a touch of mint.</p>
+              <p>Full of antioxidants and flavor, this brew is loaded with blueberries, lemon, and a hint of mint.</p>
           </div>
 
 
           <div class="favorite-brew">
-			  <img src="images/homepage-citrus.jpg" alt="Citrus Got Real" />
+				  <a href="images/homepage-citrus.jpg" data-lightbox="highlight" data-title="Citrus Got Real with this crowd-pleaser. Enjoy the fresh the flavors of summer with orange, lemon, grapefruit, and pineapple.">				  
+					  <img src="images/homepage-citrus.jpg" alt="Citrus Got Real" /></a>
                <h2>CITRUS GOT REAL</h2>
-               <p>Enjoy the fresh the flavors of summer with orange, lemon, star fruit, and pineapple.</p>
+               <p>Enjoy the fresh the flavors of summer with orange, lemon, grapefruit, and pineapple.</p>
        	   </div>
         </section>
 
@@ -71,8 +77,8 @@
         <div class="flex-container" id="blue">
           <div class="box" id="blue">
             <div class="about-content">
-            <h1>OUR PROCESS</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vehicula dictum nibh id fermentum. Proin venenatis at massa sed volutpat. Integer ut mattis velit.</p>
+            <h1>WHAT IS KOMBUCHA?</h1>
+            <p>Kombucha is an all-natural, lightly effervescent drink made from high-quality botanicals, natural flavors, and loose leaf tea. It is a fermented drink rich in probiotics, antioxidants, and healthy bateria. It has long been renowned for its health benefits and we think it tastes pretty good too. Learn more about our ever evolving process for carefully crafting this fizzy delight. </p>
             <p>  <a href="about.html" class="button-home">Read More</a> </p>
           </div>
         </div>
@@ -100,6 +106,8 @@
 
     </div>
     </footer>
-
+	  
+<!-- LightBox Script -->
+<script src="lightbox/lightbox2-master/dist/js/lightbox-plus-jquery.js"></script>	
   </body>
 </html>
