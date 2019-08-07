@@ -6,57 +6,29 @@
   font-family: 'Barlow Condensed', sans-serif;
 }
 
-
-body{
-  background: #f7f7f7;
-	overflow-x: hidden;
-}
-
-
 .container {
   max-width: 100%;
-  background: #f7f7f7;
+  background-color: #f7f7f7;
+  padding: 40px;
 
 }
 
-section {
-  margin-bottom: 40px;
-  background: #f7f7f7;
-
+body {
+  background-color: #f7f7f7;
 }
 
 main {
   padding-top: 102px;
-  background: #f7f7f7;
+  background-color: #f7f7f7;
   padding-bottom: 40px;
 }
 
-main .container {
-  background-color: white;
-  padding: 20px;
-  background: #f7f7f7;
-
-}
-
-html {
-    position: relative;
-    min-height: 100%;
-}
 
 h1 {
   font-family: 'Barlow Condensed', sans-serif;
   color: black;
   font-size: 30px;
   margin-bottom: 15px;
-}
-
-h2 {
-  font-family: 'Barlow Condensed', sans-serif;
-  color: black;
-  font-size: 20px;
-  margin-bottom: 0px;
-	margin-top: 5px;
-	font-weight: 500;
 }
 
 
@@ -179,6 +151,7 @@ nav a:hover {
 
 </style>
 
+
     <header>
       <a href="index.html"><img src="images/logo-horizontal.png" class="logo" alt="Evolved Kombucha Logo" title="logo"/></a>
         <nav>
@@ -190,10 +163,15 @@ nav a:hover {
           </ul>
         </nav>
     </header>
+
+    <main>
+
 <div class="container">
   <h1>THANKS FOR CONTACTING EVOLVED KOMBUCHA!</h1>
 <p>We have received your message, and we will be in touch shortly.</p>
 </div>
+
+</main>
 
     <footer>
     <div id="footer">

@@ -6,57 +6,29 @@
   font-family: 'Barlow Condensed', sans-serif;
 }
 
-
-body{
-  background: #f7f7f7;
-	overflow-x: hidden;
-}
-
-
 .container {
   max-width: 100%;
-  background: #f7f7f7;
+  background-color: #f7f7f7;
+  padding: 40px;
 
 }
 
-section {
-  margin-bottom: 40px;
-  background: #f7f7f7;
-
+body {
+  background-color: #f7f7f7;
 }
 
 main {
   padding-top: 102px;
-  background: #f7f7f7;
+  background-color: #f7f7f7;
   padding-bottom: 40px;
 }
 
-main .container {
-  background-color: white;
-  padding: 20px;
-  background: #f7f7f7;
-
-}
-
-html {
-    position: relative;
-    min-height: 100%;
-}
 
 h1 {
   font-family: 'Barlow Condensed', sans-serif;
   color: black;
   font-size: 30px;
   margin-bottom: 15px;
-}
-
-h2 {
-  font-family: 'Barlow Condensed', sans-serif;
-  color: black;
-  font-size: 20px;
-  margin-bottom: 0px;
-	margin-top: 5px;
-	font-weight: 500;
 }
 
 
@@ -66,6 +38,15 @@ p {
   font-size: 14px;
   line-height: 20px;
   margin-bottom: 20px;
+}
+
+ul {
+  font-family: 'Lato', sans-serif;
+  color: black;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 27px;
+  margin-left: 16px;
 }
 
 
@@ -129,7 +110,31 @@ header {
 	z-index: 9999;
 }
 
+.button {
+  font-family: 'Barlow Condensed', sans-serif;
+  color: white;
+  background-color: black;
+  font-size: 18px;
+  border-radius: 2px;
+  width: 130px;
+  text-align: center;
+  border: none;
+  text-decoration: none;
+  padding: 8px 15px;
+}
 
+.button:hover {
+  font-family: 'Barlow Condensed', sans-serif;
+  color: black;
+  background-color: #b5dcd9;
+  font-size: 18px;
+  border-radius: 2px;
+  width: 130px;
+  text-align: center;
+  border: none;
+  text-decoration: none;
+  padding: 8px 15px;
+}
 
 .logo {
   float: left;
@@ -179,6 +184,7 @@ nav a:hover {
 
 </style>
 
+
     <header>
       <a href="index.html"><img src="images/logo-horizontal.png" class="logo" alt="Evolved Kombucha Logo" title="logo"/></a>
         <nav>
@@ -190,9 +196,12 @@ nav a:hover {
           </ul>
         </nav>
     </header>
+
+    <main>
+
 <div class="container">
 	<h1>WE NEED A LITTLE MORE INFORMATION...</h1>
-<p>Please go <a href="#" onClick="history.go(-1)">back</a> and complete all of the required fields.</p>
+<p>The following required fields were left blank. Please go back and complete them.</p>
 
 <ul>
 <?php
@@ -202,8 +211,10 @@ nav a:hover {
 ?>
 </ul>
 
-<p><strong><a href="#" onClick="history.go(-1)">Back to form</a></strong></p>
+<p><a href="http://evolvedkombucha.com/contact" onClick="history.go(-1)" class="button">Back to form</a></p>
 </div>
+
+</main>
 
     <footer>
     <div id="footer">
